@@ -12,7 +12,7 @@ public abstract class Equipment {
     public Equipment() {
     }
 
-    public Equipment(Integer hardness, Integer health, Integer energyUsage, 
+    public Equipment(Integer hardness, Integer health, Integer energyUsage,
             String material, String primaryColor, String secondaryColor) {
         this.hardness = hardness;
         this.health = health;
@@ -72,15 +72,10 @@ public abstract class Equipment {
 
     @Override
     public String toString() {
-        return "Equipment{" + "hardness=" + hardness + ", health=" + 
-                health + ", energyUsage=" + energyUsage + ", material=" +
-                material + ", primaryColor=" + primaryColor + ", secondaryColor=" + 
-                secondaryColor + '}';
+        return "Equipment{" + "hardness=" + hardness + ", health="
+                + health + ", energyUsage=" + energyUsage + ", material="
+                + material + ", primaryColor=" + primaryColor + ", secondaryColor="
+                + secondaryColor + '}';
     }
-    
-    
-    
-    
-    
 
 }
